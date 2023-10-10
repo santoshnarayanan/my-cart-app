@@ -1,6 +1,6 @@
-import macbook from "./media/products/macbook.png";
-import Oneplus from "./media/products/oneplus.png";
-import Predator from "./media/products/predator.png";
+import macbook from "../src/media/products/macbook.png";
+import Oneplus from "../src/media/products/oneplus.png";
+import Predator from "../src/media/products/predator.png";
 
 export default [
   {
