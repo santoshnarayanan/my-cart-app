@@ -7,8 +7,8 @@ function Navbar() {
                 <h3>HotDeals</h3>
                 <div className="nav-container">
                     <img src={bagimage} alt="bag" />
-                    <div className="amount">
-                        <p className="total-amount">55</p>
+                    <div className="amount-container">
+                        <p className="total-amount">5</p>
                     </div>
                 </div>
             </div>
