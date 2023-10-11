@@ -17,11 +17,11 @@ const CartItem = ({id, img, title, price, amount}) => {
         <div style={{display:"flex"}}>
             {/* decrease amount */}
             <button className="amount-btn" onClick={()=>{toggleAmount(id, "dec")}}>
-                <p style={{fontSize : "20px"}}></p>
+                <p style={{fontSize : "20px"}}>-</p>
             </button>
             {/* increase amount */}
             <button className="amount-btn" onClick={()=>{toggleAmount(id, "inc")}}>
-                <p style={{fontSize : "20px"}}></p>
+                <p style={{fontSize : "20px"}}>+</p>
             </button>
         </div>
     </article>

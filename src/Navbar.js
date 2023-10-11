@@ -1,6 +1,9 @@
-import React from 'react'
-import bagimage from "../src/media/icons/bag.svg"
+import React from 'react';
+import bagimage from "../src/media/icons/bag.svg";
+import { useGlobalContext } from './context';
+
 function Navbar() {
+    const { amount } = useGlobalContext();
     return (
         <nav>
             <div className="nav-center">
@@ -8,7 +11,7 @@ function Navbar() {
                 <div className="nav-container">
                     <img src={bagimage} alt="bag" />
                     <div className="amount-container">
-                        <p className="total-amount">5</p>
+                        <p className="total-amount">{amount}</p>
                     </div>
                 </div>
             </div>
